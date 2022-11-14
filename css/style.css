@@ -1,0 +1,74 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-image: url(https://i.ytimg.com/vi/e5OuLSDayxs/maxresdefault.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+
+
+.container {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(gray 30%, black 70%);
+    background-size: 100% 100%, contain;
+    background-repeat: no-repeat;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.person label,input .tall label,input .wight label,input {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: inset 5px 1px gray;
+}
+
+#calcular {
+    margin-top: 15px;
+    background-color: blue;
+    border-radius: 10px;
+    width: 70px;
+    height: 20px;
+    color: white;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    height: 80px;
+    width: 180px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    text-transform: none;
+    
+}
+
